@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Util Files">
+      <UniqueIdentifier>{2d98712e-7860-4e76-a39c-e80cf261b364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{36770620-0645-48cc-8ff0-0becc9bd9f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Custom">
+      <UniqueIdentifier>{4b89d202-9377-4c60-811b-78bc884da402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Custom\CustomBuyVip">
+      <UniqueIdentifier>{7c1bd4e7-6d43-428d-a5ac-955a7f80222e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Custom\CustomCommandInfo">
+      <UniqueIdentifier>{87294335-ab62-42a7-b822-5a979a21ebc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Custom\CustomEventTime">
+      <UniqueIdentifier>{7408e251-7185-4048-b6f7-e0898fe788f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Custom\CustomFog">
+      <UniqueIdentifier>{b77a3797-945e-4dfc-8f93-16d78a8a65a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Custom\CustomGloves">
+      <UniqueIdentifier>{c0212cea-1cb7-4599-8406-77774914f803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Custom\CustomInterface">
+      <UniqueIdentifier>{0c0653ca-74b6-49db-9297-21f96ec1cb1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Custom\CustomMap">
+      <UniqueIdentifier>{d77eb6d0-64ec-4ac3-a19c-bf8026f3c555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Custom\CustomMessage">
+      <UniqueIdentifier>{d43d07cb-f352-48e6-9e80-4b7cb47cb04e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Custom\CustomMonster">
+      <UniqueIdentifier>{fc40ed4c-35a7-4d75-8dd6-25c1899acb46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Custom\CustomNpcName">
+      <UniqueIdentifier>{f7f08591-f676-4bc5-b543-43342a87caf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Custom\CustomPing">
+      <UniqueIdentifier>{5f5fb0a0-f083-4a94-a5cb-544618dae317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Custom\CustomRanking">
+      <UniqueIdentifier>{0b51f7a4-6f74-479d-8836-bcefefc8cb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Custom\CustomRankUser">
+      <UniqueIdentifier>{975c8c0c-c936-4356-a4fa-b7c5c41b03ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Custom\CustomWing">
+      <UniqueIdentifier>{34cfcb9e-9bec-4039-a2ab-1ce6355e7c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Item">
+      <UniqueIdentifier>{4a3d2714-4c97-4978-a28d-e47ad8576dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Item\CustomItem">
+      <UniqueIdentifier>{2031326f-0348-4737-a284-2c0df55b031e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Item\CustomItemDescription">
+      <UniqueIdentifier>{57d9bf45-8825-40af-8a4a-6495933bb97d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Item\CustomJewel">
+      <UniqueIdentifier>{a6066a0c-354a-43be-b813-adf2f3b5c531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Item\CustomPet">
+      <UniqueIdentifier>{232b2400-3ab7-44af-8183-c81a27884fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Item\Item">
+      <UniqueIdentifier>{4afda6d2-773b-43f8-b592-a6a7f27c7391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Item\ItemAsm">
+      <UniqueIdentifier>{ed79f49b-50f6-4561-b01d-1bcd1d76dc60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Item\ItemShopValue">
+      <UniqueIdentifier>{444877e3-0799-4652-9698-a3cea9ce3c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Item\ItemSmoke">
+      <UniqueIdentifier>{5de35fec-3695-4fd6-8d05-900a2f7f4a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\MemScript">
+      <UniqueIdentifier>{17fc5e3c-fc39-4912-8736-1fd1f807cdc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\PacketManager">
+      <UniqueIdentifier>{d6571fef-76a9-4f07-b357-2362a3ca0bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\TMemory">
+      <UniqueIdentifier>{773fcc32-092e-4c7b-baf0-6a1cddc6b017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\ToolKit">
+      <UniqueIdentifier>{f0e0730d-870c-47ed-85d1-382c91944435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\User">
+      <UniqueIdentifier>{cbba5e4c-1db9-40c9-88e5-16e48c0e87a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\HealthBar">
+      <UniqueIdentifier>{1da610da-d8b4-4944-a9a4-8e28a0cc058d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Proteccion">
+      <UniqueIdentifier>{67aaa7e4-75ef-4a11-b110-c21c7db3b86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Proteccion\HackCheck">
+      <UniqueIdentifier>{3d216d92-5bb7-46d3-b6c6-bb7da2f1d484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\PrintPlayer">
+      <UniqueIdentifier>{4e5283d3-21cc-49c3-8bed-26adc44f401c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Effect">
+      <UniqueIdentifier>{5a2befc5-a0ca-4dd4-be4d-4c2d504a4b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Effect\DynamicEffect">
+      <UniqueIdentifier>{3a4817b1-dcf6-4fe5-a901-b6bde1fe931b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Effect\WingInvisible">
+      <UniqueIdentifier>{cbb009bd-8204-4c5f-8cfe-fab52590c0c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Effect\WingEffect">
+      <UniqueIdentifier>{a569ad97-d927-4522-a0df-d0b5090fa3aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Effect\StaticEffect">
+      <UniqueIdentifier>{63b7d751-ab81-4a1a-b222-6c367ffc23d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UPDATE">
+      <UniqueIdentifier>{4ceaaca2-3f5d-4fe3-b4ea-65d8725af875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UPDATE\AntiCrack">
+      <UniqueIdentifier>{e6b4c5cf-8408-43ca-ba5d-c97b6bef1807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UPDATE\zzzmathlib">
+      <UniqueIdentifier>{8c349e46-400a-47a2-838b-04ea7a92378d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UPDATE\MessageBox">
+      <UniqueIdentifier>{72247ac8-2588-4868-a10a-d9a8b71fea77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UPDATE\Select_Server/Character">
+      <UniqueIdentifier>{dca6850e-2b02-4524-89c6-fd262d976daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UPDATE\Select_Server/Character\SelectCharacterEx700">
+      <UniqueIdentifier>{3ad2f713-ad95-4aaa-a77a-64ccc88b564a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UPDATE\Select_Server/Character\CharacterAnimate">
+      <UniqueIdentifier>{98f941d5-77ee-403a-bfa4-8797fa030af2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UPDATE\SkyBox">
+      <UniqueIdentifier>{7c532cd2-5df2-40b6-945a-57bcda8c363d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="AddressTable1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AddressTable2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AddressTable3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Protect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Util\CCRC32.H">
+      <Filter>Util Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reconnect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Import.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OffTrade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomBuyVip.h">
+      <Filter>Source Files\Main\Custom\CustomBuyVip</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCommandInfo.h">
+      <Filter>Source Files\Main\Custom\CustomCommandInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomEventTime.h">
+      <Filter>Source Files\Main\Custom\CustomEventTime</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFog.h">
+      <Filter>Source Files\Main\Custom\CustomFog</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomGloves.h">
+      <Filter>Source Files\Main\Custom\CustomGloves</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomInterface.h">
+      <Filter>Source Files\Main\Custom\CustomInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomItem.h">
+      <Filter>Source Files\Main\Item\CustomItem</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomItemDescription.h">
+      <Filter>Source Files\Main\Item\CustomItemDescription</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomJewel.h">
+      <Filter>Source Files\Main\Item\CustomJewel</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMap.h">
+      <Filter>Source Files\Main\Custom\CustomMap</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMessage.h">
+      <Filter>Source Files\Main\Custom\CustomMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMonster.h">
+      <Filter>Source Files\Main\Custom\CustomMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomNpcName.h">
+      <Filter>Source Files\Main\Custom\CustomNpcName</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomPet.h">
+      <Filter>Source Files\Main\Item\CustomPet</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomPing.h">
+      <Filter>Source Files\Main\Custom\CustomPing</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomRanking.h">
+      <Filter>Source Files\Main\Custom\CustomRanking</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomRankUser.h">
+      <Filter>Source Files\Main\Custom\CustomRankUser</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomWing.h">
+      <Filter>Source Files\Main\Custom\CustomWing</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicEffect.h">
+      <Filter>Source Files\Main\Effect\DynamicEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="WingEffect.h">
+      <Filter>Source Files\Main\Effect\WingEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="WingInvisible.h">
+      <Filter>Source Files\Main\Effect\WingInvisible</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Source Files\Main\Item\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemAsm.h">
+      <Filter>Source Files\Main\Item\ItemAsm</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemShopValue.h">
+      <Filter>Source Files\Main\Item\ItemShopValue</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSmoke.h">
+      <Filter>Source Files\Main\Item\ItemSmoke</Filter>
+    </ClInclude>
+    <ClInclude Include="MemScript.h">
+      <Filter>Source Files\Main\MemScript</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager.h">
+      <Filter>Source Files\Main\PacketManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TMemory.h">
+      <Filter>Source Files\Main\TMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolKit.h">
+      <Filter>Source Files\Main\ToolKit</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Source Files\Main\User</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar.h">
+      <Filter>Source Files\Main\HealthBar</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintPlayer.h">
+      <Filter>Source Files\Main\PrintPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="HackCheck.h">
+      <Filter>Source Files\Main\Proteccion\HackCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticEffect.h">
+      <Filter>Source Files\Main\Effect\StaticEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiCrack.h">
+      <Filter>Source Files\UPDATE\AntiCrack</Filter>
+    </ClInclude>
+    <ClInclude Include="zzzmathlib.h">
+      <Filter>Source Files\UPDATE\zzzmathlib</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageBox.h">
+      <Filter>Source Files\UPDATE\MessageBox</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectCharacterEx700.h">
+      <Filter>Source Files\UPDATE\Select_Server/Character\SelectCharacterEx700</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectChar.h">
+      <Filter>Source Files\UPDATE\Select_Server/Character\CharacterAnimate</Filter>
+    </ClInclude>
+    <ClInclude Include="SEASON3B.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Source Files\UPDATE\SkyBox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Protect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Util\CCRC32.Cpp">
+      <Filter>Util Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reconnect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OffTrade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomBuyVip.cpp">
+      <Filter>Source Files\Main\Custom\CustomBuyVip</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCommandInfo.cpp">
+      <Filter>Source Files\Main\Custom\CustomCommandInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomEventTime.cpp">
+      <Filter>Source Files\Main\Custom\CustomEventTime</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFog.cpp">
+      <Filter>Source Files\Main\Custom\CustomFog</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomGloves.cpp">
+      <Filter>Source Files\Main\Custom\CustomGloves</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomInterface.cpp">
+      <Filter>Source Files\Main\Custom\CustomInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomItem.cpp">
+      <Filter>Source Files\Main\Item\CustomItem</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomItemDescription.cpp">
+      <Filter>Source Files\Main\Item\CustomItemDescription</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomJewel.cpp">
+      <Filter>Source Files\Main\Item\CustomJewel</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMap.cpp">
+      <Filter>Source Files\Main\Custom\CustomMap</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMessage.cpp">
+      <Filter>Source Files\Main\Custom\CustomMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMonster.cpp">
+      <Filter>Source Files\Main\Custom\CustomMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomNpcName.cpp">
+      <Filter>Source Files\Main\Custom\CustomNpcName</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomPet.cpp">
+      <Filter>Source Files\Main\Item\CustomPet</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomPing.cpp">
+      <Filter>Source Files\Main\Custom\CustomPing</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomRanking.cpp">
+      <Filter>Source Files\Main\Custom\CustomRanking</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomRankUser.cpp">
+      <Filter>Source Files\Main\Custom\CustomRankUser</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomWing.cpp">
+      <Filter>Source Files\Main\Custom\CustomWing</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicEffect.cpp">
+      <Filter>Source Files\Main\Effect\DynamicEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="WingEffect.cpp">
+      <Filter>Source Files\Main\Effect\WingEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="WingInvisible.cpp">
+      <Filter>Source Files\Main\Effect\WingInvisible</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\Main\Item\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemAsm.cpp">
+      <Filter>Source Files\Main\Item\ItemAsm</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemShopValue.cpp">
+      <Filter>Source Files\Main\Item\ItemShopValue</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSmoke.cpp">
+      <Filter>Source Files\Main\Item\ItemSmoke</Filter>
+    </ClCompile>
+    <ClCompile Include="MemScript.cpp">
+      <Filter>Source Files\Main\MemScript</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketManager.cpp">
+      <Filter>Source Files\Main\PacketManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TMemory.cpp">
+      <Filter>Source Files\Main\TMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolKit.cpp">
+      <Filter>Source Files\Main\ToolKit</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\Main\User</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBar.cpp">
+      <Filter>Source Files\Main\HealthBar</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintPlayer.cpp">
+      <Filter>Source Files\Main\PrintPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="HackCheck.cpp">
+      <Filter>Source Files\Main\Proteccion\HackCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticEffect.cpp">
+      <Filter>Source Files\Main\Effect\StaticEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiCrack.cpp">
+      <Filter>Source Files\UPDATE\AntiCrack</Filter>
+    </ClCompile>
+    <ClCompile Include="zzzmathlib.cpp">
+      <Filter>Source Files\UPDATE\zzzmathlib</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageBox.cpp">
+      <Filter>Source Files\UPDATE\MessageBox</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectCharacterEx700.cpp">
+      <Filter>Source Files\UPDATE\Select_Server/Character\SelectCharacterEx700</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectChar.cpp">
+      <Filter>Source Files\UPDATE\Select_Server/Character\CharacterAnimate</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Source Files\UPDATE\SkyBox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8CEE92DB-9F87-4658-9B58-215C7319C44E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Main</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Release</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;MAIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;MAIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="AddressTable1.bin" />
+    <None Include="AddressTable2.bin" />
+    <None Include="AddressTable3.bin" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Util\CCRC32.H" />
+    <ClInclude Include="AntiCrack.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="CustomBuyVip.h" />
+    <ClInclude Include="CustomCommandInfo.h" />
+    <ClInclude Include="CustomEventTime.h" />
+    <ClInclude Include="CustomFog.h" />
+    <ClInclude Include="CustomGloves.h" />
+    <ClInclude Include="CustomItem.h" />
+    <ClInclude Include="CustomItemDescription.h" />
+    <ClInclude Include="CustomJewel.h" />
+    <ClInclude Include="CustomMap.h" />
+    <ClInclude Include="CustomMessage.h" />
+    <ClInclude Include="CustomMonster.h" />
+    <ClInclude Include="CustomNpcName.h" />
+    <ClInclude Include="CustomPet.h" />
+    <ClInclude Include="CustomPing.h" />
+    <ClInclude Include="CustomRanking.h" />
+    <ClInclude Include="CustomRankUser.h" />
+    <ClInclude Include="CustomWing.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="DynamicEffect.h" />
+    <ClInclude Include="Fix.h" />
+    <ClInclude Include="Graphics.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="HackCheck.h" />
+    <ClInclude Include="HealthBar.h" />
+    <ClInclude Include="Import.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemAsm.h" />
+    <ClInclude Include="ItemShopValue.h" />
+    <ClInclude Include="ItemSmoke.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="MemScript.h" />
+    <ClInclude Include="CustomInterface.h" />
+    <ClInclude Include="MessageBox.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Offset.h" />
+    <ClInclude Include="OffTrade.h" />
+    <ClInclude Include="PacketManager.h" />
+    <ClInclude Include="PrintPlayer.h" />
+    <ClInclude Include="Protect.h" />
+    <ClInclude Include="Protocol.h" />
+    <ClInclude Include="Reconnect.h" />
+    <ClInclude Include="Resolution.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SEASON3B.h" />
+    <ClInclude Include="SelectChar.h" />
+    <ClInclude Include="SelectCharacterEx700.h" />
+    <ClInclude Include="SkyBox.h" />
+    <ClInclude Include="StaticEffect.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TMemory.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="ToolKit.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="User.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="WingEffect.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="WingInvisible.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="zzzmathlib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Util\CCRC32.Cpp" />
+    <ClCompile Include="AntiCrack.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="CustomBuyVip.cpp" />
+    <ClCompile Include="CustomCommandInfo.cpp" />
+    <ClCompile Include="CustomEventTime.cpp" />
+    <ClCompile Include="CustomFog.cpp" />
+    <ClCompile Include="CustomGloves.cpp" />
+    <ClCompile Include="CustomItem.cpp" />
+    <ClCompile Include="CustomItemDescription.cpp" />
+    <ClCompile Include="CustomJewel.cpp" />
+    <ClCompile Include="CustomMap.cpp" />
+    <ClCompile Include="CustomMessage.cpp" />
+    <ClCompile Include="CustomMonster.cpp" />
+    <ClCompile Include="CustomNpcName.cpp" />
+    <ClCompile Include="CustomPet.cpp" />
+    <ClCompile Include="CustomPing.cpp" />
+    <ClCompile Include="CustomRanking.cpp" />
+    <ClCompile Include="CustomRankUser.cpp" />
+    <ClCompile Include="CustomWing.cpp" />
+    <ClCompile Include="DynamicEffect.cpp" />
+    <ClCompile Include="Fix.cpp" />
+    <ClCompile Include="Graphics.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="HackCheck.cpp" />
+    <ClCompile Include="HealthBar.cpp" />
+    <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemAsm.cpp" />
+    <ClCompile Include="ItemShopValue.cpp" />
+    <ClCompile Include="ItemSmoke.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MemScript.cpp" />
+    <ClCompile Include="CustomInterface.cpp" />
+    <ClCompile Include="MessageBox.cpp" />
+    <ClCompile Include="OffTrade.cpp" />
+    <ClCompile Include="PacketManager.cpp" />
+    <ClCompile Include="PrintPlayer.cpp" />
+    <ClCompile Include="Protect.cpp" />
+    <ClCompile Include="Protocol.cpp" />
+    <ClCompile Include="Reconnect.cpp" />
+    <ClCompile Include="Resolution.cpp" />
+    <ClCompile Include="SelectChar.cpp" />
+    <ClCompile Include="SelectCharacterEx700.cpp" />
+    <ClCompile Include="SkyBox.cpp" />
+    <ClCompile Include="StaticEffect.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TMemory.cpp" />
+    <ClCompile Include="ToolKit.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="WingEffect.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="WingInvisible.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="zzzmathlib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
