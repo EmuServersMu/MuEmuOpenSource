@@ -77,8 +77,8 @@ CAPTION "About"
 FONT 8, "System", 0, 0, 0x0
 BEGIN
     ICON            IDI_CONNECTSERVER,IDC_MYICON,14,9,20,20
-    LTEXT           "Louis ConnectServer",IDC_STATIC,49,10,119,8,SS_NOPREFIX
-    LTEXT           "Louis Copyright (C) 2017",IDC_STATIC,49,20,119,8
+    LTEXT           "OpenSource ConnectServer",IDC_STATIC,49,10,119,8,SS_NOPREFIX
+    LTEXT           "OpenSource Copyright (C) 2023",IDC_STATIC,49,20,119,8
     DEFPUSHBUTTON   "OK",IDOK,195,6,30,11,WS_GROUP
 END
 
@@ -180,11 +180,11 @@ BEGIN
     BEGIN
         BLOCK "040904b0"
         BEGIN
-            VALUE "CompanyName", "Louis Team"
+            VALUE "CompanyName", "OpenSource"
             VALUE "FileDescription", "ConnectServer"
             VALUE "FileVersion", "1.0.0.0"
             VALUE "InternalName", "ConnectServer"
-            VALUE "LegalCopyright", "Copyright © louis 2017"
+            VALUE "LegalCopyright", "Copyright © OpenSource 2023"
             VALUE "OriginalFilename", "ConnectServer.exe"
             VALUE "ProductName", "ConnectServer"
             VALUE "ProductVersion", "1.0.0.0"

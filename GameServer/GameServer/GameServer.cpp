@@ -71,7 +71,7 @@ int APIENTRY WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine
 
 	char buff[256];
 
-	wsprintf(buff,"[%s] %s (ON: %d) Louis Emulator - www.jogandomu.com.br",GAMESERVER_VERSION,gServerInfo.m_ServerName, gObjTotalUser);
+	wsprintf(buff,"[%s] %s (ON: %d) OpenSource - www.emuservers.online",GAMESERVER_VERSION,gServerInfo.m_ServerName, gObjTotalUser);
 
 	SetWindowText(hWnd,buff);
 
